@@ -39,7 +39,7 @@ class App extends Component {
     return (
       <div className="App">
         <input  value ={this.state.text} onChange = {this.onChange}/>
-        <button onClick = {this.changeState}>False</button>
+        <button onClick = {this.changeState}>list</button>
          <ul>
            {this.state.todos.map((todo,index)=>{
              return(
